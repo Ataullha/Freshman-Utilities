@@ -131,49 +131,30 @@ Contribution
 </pre>
 ## Acknowledgement <!--Ataullha-->
 
- <h3>PERSON</h3>
+ <h5> Special Thanks to:</h5>
  
- <h4> Special Thanks to:</h4>
- 
-  * <b> Enamul Hassan <br>
-  Assistant Professor,<br>
-  CSE, SUST</b>
-  - [x] **For Everthing** specially prioviding valuable feedbacks and amazing ideas regarding the development of this project
-   
-  <h4> Others: </h4>
-   
-  * **Anisul Islam** <br>
-    https://www.youtube.com/c/anisulislamrubel/channels <br>
-  - [x] For Amazing Android Developement Playlist in Youtube
-  * **Technical Skills** <br>
-  - [x] For Saving Some Valuable Time
-
- <h3>PLATFORM</h3>
- 
- * *StackOverflow*
- - [x] For their Developer community 
- 
- * *GitHub*
- - [x] For their amazing platform and providing other valuable open source projects as our guideline 
- 
- * *Google*
- - [x] For Firebase (Firestore and Realtime Database) and Directions API (though it should free for student) and also for Android Studio <strike>In My 4GB Ram Laptop</strike>
-
-  <h5> OTHERS </h5>
+  <Button>&#x2B50;</Button> <b> Enamul Hassan, Assistant Professor, CSE, SUST</b> - *For Everthing* specially prioviding valuable feedbacks and amazing ideas regarding the development of this project <br>
   
- * https://www.sust.edu
-  - [x] For a complicated website for parsing Teachers Contact Informations
- * akexorcist/GoogleDirectionLibrary
-  - [x] For google direction API Library
- * JSOUP Library 
-  - [x] Raw HTML Parsing Library From SUST Website
- * Apache Netbeans 
-  - [x] For their Platform 
- * Freepik
-  - [x] For Beautiful Background Images
- * Canva
-  - [x] For Splash Screen and Icon (Not Copied From There)
- * And Many Others GitHub REpos, StackOverflow Blogs and Yotubers
+ <h6>PERSON</h6>
+  
+:heavy_check_mark: **Anisul Islam**  https://www.youtube.com/c/anisulislamrubel/channels - For Amazing Android Developement Playlist in Youtube <br>
+:heavy_check_mark: **Technical Skills** - For Saving Some Valuable Time
+
+ <h6>PLATFORM</h6>
+ 
+ :heavy_check_mark: **StackOverflow** - For their Developer community <br>
+ :heavy_check_mark: **GitHub** - For their amazing platform and providing other valuable open source projects as our guideline <br>
+ :heavy_check_mark: **Google** - For Firebase (Firestore and Realtime Database) and Directions API (should allow free version for student) and also for Android Studio <strike>In My 4GB Ram Laptop</strike>
+
+  <h6> OTHERS </h6>
+  
+ :heavy_check_mark: https://www.sust.edu - For a complicated website for parsing Teachers Contact Informations <br>
+ :heavy_check_mark: **akexorcist/GoogleDirectionLibrary** - For google direction API Library <br>
+ :heavy_check_mark: **JSOUP Library** - Raw HTML Parsing Library From SUST Website <br>
+ :heavy_check_mark: **Apache Netbeans** - For their Platform <br>
+ :heavy_check_mark: **Freepik** - For Beautiful Background Images <br>
+ :heavy_check_mark: **Canva** - For Splash Screen and Icon (Not Copied From There) <br>
+ &nbsp;&nbsp;&nbsp;&nbsp; And Many GitHub Repositories, StackOverflow Blogs and Yotubers
 
 ## Developers <!--Ataullha-->
 <table>
