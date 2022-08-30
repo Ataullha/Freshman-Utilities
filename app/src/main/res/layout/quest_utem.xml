@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="#DFDEDE"
+
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        android:padding="15dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_gravity="center_vertical"
+                android:padding="10dp"
+                app:cardCornerRadius="40dp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/questionutem_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+
+
+                    android:src="@drawable/ic_baseline_person_24" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!-- for time -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="#673AB7"
+                android:id="@+id/time_fromquestion_item"
+                android:hint="time"
+                android:textStyle="bold"
+
+                android:layout_gravity="right"
+                />
+
+            <!-- name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+
+                android:textStyle="bold"
+                android:textColor="#673AB7"
+                android:paddingStart="5dp"
+                android:id="@+id/name_fromquestion_item"
+                android:hint="name"
+                android:paddingBottom="5dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#171616"
+                android:paddingStart="5dp"
+                android:id="@+id/ques_fromquestion_item"
+                android:hint="Your Question"
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="20dp"
+
+
+
+                >
+
+                <!-- for replyng -->
+                <TextView
+                    android:id="@+id/reply_ques"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#673AB7"
+                    android:text="Reply"
+                    android:textStyle="bold"
+
+                    android:padding="5dp"
+
+                    android:textSize="20sp"
+                    android:clickable="true"/>
+
+
+                <!-- for favourite button -->
+                <ImageButton
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_star_border_24"
+                    android:id="@+id/fav_varsity"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:background="#DFDEDE"
+                    android:paddingLeft="10dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

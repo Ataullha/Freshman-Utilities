@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    tools:context=".EditImageActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload A Profile Picture"
+        android:textColor="#9C27B0"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_name_image"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/edit_iv_expand"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:scaleType="centerCrop" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload An Image"
+        android:id="@+id/btn_select_image_iv"
+        android:backgroundTint="#FFC107"/>
+        <Button
+            android:id="@+id/btn_edit_save_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="Save" />
+    <ProgressBar
+        android:id="@+id/edit_image_save_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/black"
+        android:visibility="invisible" />
+
+</LinearLayout>

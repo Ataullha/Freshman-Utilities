@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259432276315",
+    "project_id": "freshmanutilites",
+    "storage_bucket": "freshmanutilites.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259432276315:android:56b2dc0419e7138ccdfa7e",
+        "android_client_info": {
+          "package_name": "com.example.freshmanutilites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259432276315-lb8ut9cmg72e7uq0dl1vjc65noh1hqe0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg63wimIPVboRQzTTXccGM765ioJVSJAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259432276315-lb8ut9cmg72e7uq0dl1vjc65noh1hqe0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

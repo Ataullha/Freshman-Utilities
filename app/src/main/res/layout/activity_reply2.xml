@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    tools:context=".ReplyActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#97F4E34E"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_margin="10sp"
+
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardPreventCornerOverlap="false">
+
+                        <!-- load image of user asking the question-->
+                        <ImageView
+                            android:id="@+id/ques_user2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:scaleType="fitCenter"
+
+
+                            android:src="@drawable/ic_baseline_person_24" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <!-- name and question -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/name_reply2"
+                        android:hint="Name"
+                        android:paddingStart="5dp"
+
+                        android:textColor="#151515"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/question_reply2"
+                        android:hint="Questions"
+                        android:paddingStart="5dp"
+
+                        android:textColor="#1A191B"
+                        android:textSize="15sp"
+                        />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="300dp"
+            android:layout_height="600dp"
+            android:layout_gravity="right"
+            android:layout_marginStart="5dp"
+            android:id="@+id/rec_of_reply2"
+
+
+            android:layout_marginEnd="5dp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <!-- button for replying-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="669dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="15sp"
+
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/reply_user2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+
+
+                android:src="@drawable/ic_baseline_person_24" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bg_reply2"
+            android:clickable="true"
+            android:paddingStart="10dp"
+            android:padding="7dp"
+            android:text="Give Reply"
+            android:paddingBottom="5dp"
+
+            android:textColor="#1E1E1E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

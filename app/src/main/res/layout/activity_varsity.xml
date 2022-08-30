@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VarsityActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:cardBackgroundColor="#E1DEDE"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:drawableStart="@drawable/ic_baseline_question_answer_24"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="25dp"
+            android:text="Questions"
+            android:textColor="#ff22"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_margin="15sp"
+
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="15sp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/varsity_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+
+
+                android:src="@drawable/ic_baseline_person_24" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        android:src="@drawable/add_24"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_varsity"
+        tools:layout_editor_absoluteX="1dp"
+        android:paddingTop="60dp"
+
+        tools:layout_editor_absoluteY="61dp" />
+
+    <!-- floating action button -->
+
+
+
+</LinearLayout>

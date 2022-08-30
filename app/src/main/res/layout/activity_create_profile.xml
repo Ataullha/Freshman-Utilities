@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+                android:padding="15dp"
+                android:text="Create Profile"
+                android:background="@color/yellow"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150sp"
+                android:layout_height="150sp"
+                android:layout_margin="15sp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                app:cardCornerRadius="75sp"
+                app:cardPreventCornerOverlap="false">
+
+                <ImageView
+                    android:id="@+id/create_profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_baseline_person_24" />
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:id="@+id/crete_profile_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_margin="5sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_baseline_person_24_mc"
+                android:drawablePadding="10dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp">
+
+                <EditText
+                    android:id="@+id/crete_profile_department_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_margin="5sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_baseline_school_24"
+                    android:drawablePadding="10dp"
+                    android:hint=""
+                    android:textAllCaps="true"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    tools:ignore="MissingConstraints" />
+
+                <Spinner
+                    android:id="@+id/create_profile_deptgrp_spinner"
+                    android:layout_width="312dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/crete_profile_batch_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_margin="5sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_baseline_calendar_month_24"
+                    android:drawablePadding="10dp"
+                    android:hint=""
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    tools:ignore="MissingConstraints" />
+
+                <Spinner
+                    android:id="@+id/create_profile_batchgrp_spinner"
+                    android:layout_width="312dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/crete_profile_mobile_no_et"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_margin="5sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_baseline_call_24"
+                android:drawablePadding="10dp"
+                android:hint="Mobile No "
+                android:inputType="phone"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/crete_profile_blood_group_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_margin="5sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/ic_baseline_bloodtype_24"
+                    android:drawablePadding="10dp"
+                    android:hint=""
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray"
+                    tools:ignore="MissingConstraints" />
+
+                <Spinner
+                    android:id="@+id/create_profile_bldgrp_spinner"
+                    android:layout_width="312dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <EditText
+                android:id="@+id/crete_profile_facebook_link_et"
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:layout_margin="5sp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_baseline_share_24"
+                android:drawablePadding="10dp"
+                android:hint="Facebook User Id/Others Social Link"
+                android:inputType="textUri"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <!--
+
+                <EditText
+                    android:id="@+id/crete_profile_gender_group_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_margin="5sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/custom_person_input"
+                    android:drawablePadding="10dp"
+                    android:hint="Gender"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/crete_profile_date_of_birth_group_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="40sp"
+                    android:layout_margin="5sp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/custom_input"
+                    android:drawableStart="@drawable/custom_person_input"
+                    android:drawablePadding="10dp"
+                    android:hint="Date Of Birth"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@android:color/darker_gray" />
+
+            -->
+            <Button
+                android:id="@+id/create_profile_save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/yellow"
+                android:text="Save Profile"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <ProgressBar
+                android:id="@+id/create_profile_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:indeterminateTint="@color/black"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

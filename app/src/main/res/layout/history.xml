@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:id="@+id/var_ques"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Varsity Questions"
+            android:textColor="#2C2C2B"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_school_2"
+            android:drawablePadding="10dp"
+
+            android:background="@drawable/roundcorner3"
+
+
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:id="@+id/res_ques"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Residential Questions"
+            android:textColor="#2C2C2B"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_house_24"
+            android:drawablePadding="10dp"
+
+            android:background="@drawable/roundcorner3"
+
+
+            />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:id="@+id/aca_ques"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Academic Questions"
+            android:textColor="#2C2C2B"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_laptop_mac_24"
+            android:drawablePadding="10dp"
+
+            android:background="@drawable/roundcorner3"
+
+
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="15dp"
+        android:clickable="true"
+        android:id="@+id/oth_ques"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Others Questions"
+            android:textColor="#2C2C2B"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_front_hand_24"
+            android:drawablePadding="10dp"
+
+            android:background="@drawable/roundcorner3"
+
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

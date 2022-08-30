@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freshmanutilites">
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_circle"
+
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FreshmanUtilites">
+
+        <activity
+            android:name=".CommentAnswer"
+            android:exported="false" />
+        <activity
+            android:name=".CommentActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CHEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ECOContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ENGContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FESContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GEBContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GEEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MATContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OCGContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PADContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PHYContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PSSContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SCWContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SOCContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BNGContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BMBContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BBAContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ANPContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".STAContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PMEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MEEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IPEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FETContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EEEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CEEContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ARCContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CEPContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailVerificationSentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ACContactActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAREfZJ0b_7sriRWtL5B-52Y0mP7soKJW0" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AnswerActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".AnswerActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ReplyActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".ReplyActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".ReplyActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PostActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PushNotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LibraryWebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VarsityWebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ECContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactSubSection"
+            android:exported="false" />
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToolsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".FAQActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".YourQues3"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".YourQues4"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Favques4"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Favques3"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".YourQues2"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".CSEContactActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Favques2"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Questions4"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Questions3"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Questions2"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".AnswerActivity1"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".ReplyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".YourQues"
+            android:exported="false"
+            android:label="@string/title_activity_your_ques"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Favques"
+            android:exported="false"
+            android:label="@string/title_activity_favques"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".Questions"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".EditImageActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".ImageActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".SendReportActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".CreateProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FreshmanUtilites.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

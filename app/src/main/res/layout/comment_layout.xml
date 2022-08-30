@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#EDECE7"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!-- layout for image,name ,time -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                app:cardPreventCornerOverlap="false"
+
+                android:elevation="8dp"
+                android:id="@+id/cardView1"
+
+                app:cardCornerRadius="15dp"
+                android:layout_height="28dp"
+                >
+
+                <ImageView
+                    android:id="@+id/image_of_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_baseline_person_24"
+
+
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#ff22"
+                android:fontFamily="@font/baloo"
+                android:textSize="16dp"
+                android:layout_marginLeft="2dp"
+                android:textStyle="bold"
+                android:id="@+id/name_of_comment"
+                android:textAlignment="viewEnd"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_of_comment"
+                android:textColor="#ff22"
+                android:text="Time"
+                android:textAlignment="viewEnd"
+               android:paddingRight="4dp"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+
+        <!-- for answer  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/ans_from_comment"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <!-- for vote  -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_baseline_thumb_up_off_alt_24"
+                android:textSize="14dp"
+                android:background="@android:color/transparent"
+                android:textColor="#9C27B0"
+                android:clickable="true"
+                android:textAlignment="viewEnd"
+                android:id="@+id/votes_from_cmnt"
+                android:padding="5dp"
+
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Likes"
+                android:paddingLeft="5dp"
+                android:textSize="14dp"
+                android:textColor="#ff22"
+                android:clickable="true"
+                android:textAlignment="viewEnd"
+                android:id="@+id/voteno_from_cmnt"
+                android:padding="5dp"
+
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

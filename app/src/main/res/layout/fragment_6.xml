@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment6">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#FFEB3B"
+
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:drawableStart="@drawable/ic_baseline_question_answer_24"
+            android:drawablePadding="5dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="30dp"
+            android:text="Residential Questions"
+
+
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/f7button_res"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:layout_marginRight="55dp"
+            android:layout_gravity="right|center"
+            />
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_margin="15sp"
+
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/residential_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+
+
+                android:src="@drawable/ic_baseline_person_24" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        android:src="@drawable/add_24"
+        android:backgroundTint="#FFC107"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_f6"
+        android:paddingTop="60dp"
+        android:layout_margin="3dp"
+
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

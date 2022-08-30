@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ContactSubSection">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/ec"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E65100"
+                android:fontFamily="monospace"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Emergency Contact"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="@color/white"
+                android:backgroundTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/ac"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="80sp"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#F50057"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Administration\nContact"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="@color/white"
+                android:backgroundTint="@color/black" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/anp"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Anthropology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/arc"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Architecture"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bng"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Bangla"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bmb"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Biochemistry and Molecular Biology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/bba"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Business Administration"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/cep"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Chemical Engineering &amp; Polymer Science"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/che"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Chemistry"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+                android:id="@+id/cee"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:fontFamily="monospace"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Civil &amp; Environmental Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/cse"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:fontFamily="monospace"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Computer Science &amp; Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eco"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Economics"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eng"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="English"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/eee"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Electrical &amp; Electronic Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/fet"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="  Food Engineering &amp; Tea Technology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fes"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Forestry &amp; Environmental Science"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/geb"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Genetic Engineering &amp; Biotechnology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gee"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Geography and Environment"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ipe"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:fontFamily="monospace"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Industrial &amp; Production Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/mat"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Mathematics"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/me"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:fontFamily="monospace"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Mechanical Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ocg"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Oceanography"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pme"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Petroleum and Mining Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phy"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginRight="20sp"
+                android:fontFamily="monospace"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Physics"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pss"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Political Studies"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pad"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Public Administration"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scw"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Social Work"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/soc"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#034EC3"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Sociology"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sta"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="monospace"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="8sp"
+                android:background="#E9685706"
+                android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+                android:gravity="center"
+                android:text="Statistics"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10sp"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Last Updated:4th Jan 2022,https://www.sust.edu "/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

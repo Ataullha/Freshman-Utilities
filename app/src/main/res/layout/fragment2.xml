@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:background="#F3EDED"
+
+    >
+
+    <!-- layout for question using cardview -->
+    <!-- linear layout where will will add cardview-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+
+        android:elevation="8sp"
+        android:layout_gravity="top"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardElevation="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+           android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="@font/baloo"
+            android:text="QUESTION SECTION"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+
+            android:textSize="25dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+
+        android:clipToPadding="false"
+        android:gravity="center"
+
+
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="35dp"
+            android:id="@+id/cv1"
+            >
+            <!-- for first item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/varsity_icon"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebgpurple"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgpurple"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:text="Varsity"
+                    android:fontFamily="@font/baloo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- for varsity vardview-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="35dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv2"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/residential_icon"
+                    android:padding="10dp"
+
+
+                    android:background="@drawable/circlebgyellow"
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgyellow"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/baloo"
+                    android:text="Residential"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        android:clipToPadding="false"
+        android:gravity="center"
+
+
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="35dp"
+            android:id="@+id/cv3"
+            >
+            <!-- for first item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/education_icon"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebggreen"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebggreen"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/baloo"
+                    android:text="Academic"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- for varsity vardview-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="35dp"
+            android:layout_margin="10dp"
+
+            android:id="@+id/cv4"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/others_icon"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebgorange"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgorange"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/baloo"
+                    android:text="Batch Question"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

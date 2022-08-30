@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#FFEB3B"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!-- layout for image,name ,time -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="25dp"
+                app:cardPreventCornerOverlap="false"
+
+                android:elevation="8dp"
+                android:id="@+id/cardView2"
+
+                app:cardCornerRadius="15dp"
+                android:layout_height="25dp"
+                >
+
+                <ImageView
+                    android:id="@+id/image_of_answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_baseline_person_24"
+
+
+
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="15dp"
+                android:layout_marginLeft="2dp"
+                android:textStyle="bold"
+                android:id="@+id/name_of_answer2"
+                android:textAlignment="viewEnd"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_of_answer2"
+                android:textColor="#171717"
+                android:text="Time"
+                android:textAlignment="viewEnd"
+               android:paddingRight="4dp"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                />
+        </LinearLayout>
+
+        <!-- for answer  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/ans_from_answer2"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:layout_marginLeft="20dp"
+            />
+        <!-- for vote  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Useful"
+                android:textSize="14dp"
+                android:textColor="#201F20"
+                android:clickable="true"
+                android:id="@+id/vote_from_ans2"
+                android:padding="5dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Votes"
+                android:textSize="14dp"
+                android:textColor="#121112"
+                android:clickable="true"
+                android:textAlignment="viewEnd"
+                android:id="@+id/voteno_from_ans2"
+                android:padding="5dp"
+
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    android:gravity="center"
+    android:background="#F3EDED"
+
+    >
+
+    <!-- layout for question using cardview -->
+    <!-- linear layout where will will add cardview-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+
+        android:elevation="8sp"
+        android:layout_gravity="top"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardElevation="10sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/baloo"
+            android:text="UTILITIES SECTION"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="35dp"
+            android:id="@+id/cv_contacts"
+            >
+            <!-- for first item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/ic_baseline_perm_contact_calendar_24"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebggreen"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebggreen"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/baloo"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:text="Contacts"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- for varsity vardview-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="35dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv_faq"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/ic_baseline_edit_note_24"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebgred"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgred"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/baloo"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:text="FAQ"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:gravity="center"
+
+
+
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+
+
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="35dp"
+            android:id="@+id/cv_map"
+            >
+            <!-- for first item -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/ic_baseline_maps_home_work_24"
+                    android:padding="10dp"
+                    android:background="@drawable/bg_reply4"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgred"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/baloo"
+                    android:text="Location"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- for varsity vardview-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="35dp"
+            android:layout_margin="10dp"
+            android:id="@+id/cv_tools"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/ic_baseline_apps_24"
+                    android:padding="10dp"
+                    android:background="@drawable/circlebgpurple"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/circlebgpurple" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/baloo"
+                    android:text="Tools"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

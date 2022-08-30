@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="40dp"
+        android:clickable="true"
+        android:id="@+id/fav4"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fav Question"
+            android:textColor="#FF9800"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_star4_24"
+            android:drawablePadding="5dp"
+            android:background="@drawable/roundcorner"
+
+
+            />
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardCornerRadius="40dp"
+        android:clickable="true"
+        android:id="@+id/your_ques4"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Your Question"
+            android:textColor="#FF9800"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_baseline_star4_24"
+            android:drawablePadding="5dp"
+            android:background="@drawable/roundcorner"
+
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

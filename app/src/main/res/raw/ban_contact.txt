@@ -1,0 +1,18 @@
+Professor,Dr Md Nazrul Islam       ,/274,dnislam69@gmail.com,  dnislam969-bus@sust.edu  
+Professor,Dr. Mosaddak Ahmed Chowdhury ,/1231,prof.dr.mosaddak.chowdhury@gmail.com     
+Professor & Head,Dr Mazharul Hasan Mazumder   ,01787100190,mazhar1973-bus@sust.edu, mazharmazumder@gmail.com
+Professor,Dr Md Khairul Islam          ,01611127028 / 01711127028,khairuldba@gmail.com, khairuldba@sust.edu
+Professor,Dr Md Monirul Islam   ,/1217,monir-ban@sust.edu
+Professor,Dr. Mohammad Shahidul Hoque   ,+88-0821-713491,shahidul-ban@sust.edu
+Professor,Dr. Md. Abdul Hamid           ,880-821-713491 (Ext: 2773 or 2274),mahamid-bus@sust.edu; mahamid.biz@gmail.com
+Professor,Dr Fazle Elahi Md Faisal ,01819115018,fazle.faisal@yahoo.com
+Professor,Dr. Mohammad Mizenur Rahaman,01716258962,mizen-ban@sust.edu; mizen.ban.sust@gmail.com; Orcid ID: 0000-0003-0266-3812
+Professor,Dr Syed Mohammad Khaled Rahman,+8801721043123,smkld_sust@yahoo.com, kr15sust@gmail.com, khaledscc-bus@sust.edu
+Associate Professor,Syed Towfiq Mahmood Hasan,01715018035,stmh1106@gmail.com   
+Associate Professor,Dr. Mohammad Ashraful Ferdous Chowdhury ,01912702643,ashraful_ferdous@yahoo.com, ashraf-ban@sust.edu
+Associate Professor,Sobhana Tanzima Atiq,/274,statiq08@gmail.com   
+Assistant Professor,Dr Md Zillur Rahman,/274,zillur-bus@sust.edu, fuaddu@yahoo.com
+Assistant Professor,Sakufa Chowdhury,01558301108,sakufa_jvr@yahoo.com
+Assistant Professor,Tasmina Chowdhury Tania,01911293342,tasmina.tania@gmail.com
+Assistant Professor,Saleh Ahmad Abdullah,01552428098<,tasmina.tania@gmail.com
+Assistant Professor,Sayma Sadia Shawon,+8801793596767,shawonsrahman@gmail.com

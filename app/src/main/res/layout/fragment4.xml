@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+       android:layout_marginBottom="5dp"
+        android:elevation="8sp"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardElevation="10sp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10sp"
+            android:text="FRESHMAN UTILITIES"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+
+            android:fontFamily="@font/baloo"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_margin="15sp"
+
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardPreventCornerOverlap="false">
+
+            <ImageView
+                android:id="@+id/f4img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitCenter"
+
+
+                android:src="@drawable/ic_baseline_person_24" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- for the present state of the project -->
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
+        android:text="create post"
+        android:id="@+id/create_post_btn_f4"
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_f4_post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

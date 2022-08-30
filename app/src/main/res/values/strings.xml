@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Freshman-Utilites</string>
+    <string name="emailaddresses">ataullha81@student.sust.edu,soumik45@student.sust.edu</string>
+    <string name="emailsubject">Freshman-Utilities:Report,From:User</string>
+    <string name="body">Briefly explain what happened and what we need to do to reproduce the problem.</string>
+
+    <string name="title_activity_favques">Favques</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_your_ques">YourQues</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_your_ques3">YourQues3</string>
+    <string name="messageforemailverification">Thank you for your interest in our platform. You have been successfully registered. Now you need to confirm your email. A letter was sent to your email, follow the instructions to complete the registration.\nIf for any reason the letter did not come, it can be sent again.</string>
+    <string name="resendmessageforemailverification">Thank you again for your interest in our platform. You have been successfully A letter was resent to your email check your spam folder and follow the instructions to complete the registration.\nIf for any reason the letter did not come, check your email address and network status.</string>
+
+    <string-array name="bloodGrp">
+        <item>Blood Group</item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="bloodGrpU">
+        <item></item>
+        <item>A+</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>O-</item>
+        <item>B-</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#B62968"
+    android:orientation="vertical"
+    app:cardCornerRadius="15sp"
+    app:cardElevation="3sp"
+    app:cardUseCompatPadding="true">
+
+    <!-- Teacher,Designation,Email,MobNo,RoomNo -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_contact"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/expandable_contact_part_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacher_designation"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:drawableLeft="@drawable/ic_baseline_view_headline_24"
+                android:drawablePadding="10sp"
+                android:text="Designation"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacher_name"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:drawableLeft="@drawable/ic_baseline_drive_file_rename_outline_24"
+                android:drawablePadding="10sp"
+                android:text="Teacher's Name"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teacher_mobile"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_baseline_call_24_custom"
+                android:padding="10sp"
+                android:drawableLeft="@drawable/ic_baseline_phone_iphone_24_contact"
+                android:text=" +8801XXXXXXXXX"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/expandable_contact_part_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/teacher_email"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:drawableLeft="@drawable/ic_baseline_email_24_contact"
+                android:drawablePadding="10sp"
+                android:text="teacher@gmail.com"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/teacher_room"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_meeting_room_24"
+                android:drawablePadding="10sp"
+                android:padding="10sp"
+                android:text="Room Number : N/A"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

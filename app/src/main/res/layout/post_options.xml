@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download"
+
+        android:id="@+id/download_post"
+        android:textSize="25dp"
+        android:layout_marginBottom="2dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/black"
+
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Share"
+        android:id="@+id/share_post"
+        android:textSize="25dp"
+        android:layout_marginBottom="2dp"
+        android:clickable="true"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/delete_post"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="2dp"
+        android:visibility="gone"
+        android:clickable="true"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Copy Url"
+        android:id="@+id/url_post"
+        android:layout_marginBottom="2dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+
+</LinearLayout>

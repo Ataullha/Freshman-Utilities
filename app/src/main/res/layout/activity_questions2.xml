@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Questions2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:hint="Ask residential related questions"
+        android:textColorHint="#FFC107"
+        android:textColor="@color/black"
+        android:id="@+id/question_et2"
+        android:background="@drawable/custom_input_ques2"
+        android:layout_marginTop="5dp"
+        />
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+
+        android:id="@+id/spinner_res"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+
+        android:textAlignment="center"
+        android:layout_margin="5dp"
+        android:id="@+id/res_topic"
+        android:textColor="#0E0E0E"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:background="@drawable/ques_think3"
+
+        >
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="Submit question"
+            android:layout_margin="5dp"
+            android:id="@+id/button_submit2"
+
+            android:backgroundTint="@color/yellow"
+
+
+
+
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

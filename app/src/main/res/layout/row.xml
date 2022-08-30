@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#4CAF50"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="3sp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/code_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:text="Question?"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"/>
+        <!-- Detailing Possible -->
+
+        <!-- Code Name ^ -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expandable_layout">
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="188dp"
+                android:layout_height="wrap_content"
+                android:padding="16sp"
+                android:text="Writer/Author "
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <!-- Version ^ -->
+
+            <TextView
+                android:id="@+id/api_level"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="16sp"
+                android:text="Question Level"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!--  ApiLevel -->
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/version"
+                android:layout_marginTop="0dp"
+                android:padding="16sp"
+                android:text="Description Text View"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- now we will create a model class-->
+
+</androidx.cardview.widget.CardView>

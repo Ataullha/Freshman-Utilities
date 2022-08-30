@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    when state will enable and focused then this will happen ..  . -->
+    <item android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <corners android:radius="50dp"/>
+            <stroke android:color="@color/black" android:width="3dp"/>
+        </shape>
+    </item>
+    <!--    when state will enable and not focused then this will happen ..  . -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <corners android:radius="45dp"/>
+            <stroke android:color="#FF9800" android:width="3dp"/>
+        </shape>
+    </item>
+
+</selector>

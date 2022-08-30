@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Course"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="@drawable/bg_spin2"
+
+
+        android:layout_marginLeft="2dp"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ARC"
+
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+
+        android:id="@+id/textview_of_ARC"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#4CAF50"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMB"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:padding="7dp"
+
+        android:id="@+id/textview_of_BMB"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#4CAF50"
+
+        /> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CEE"
+
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_spin2"
+    android:padding="7dp"
+
+    android:id="@+id/textview_of_CEE"
+    android:fontFamily="sans-serif-medium"
+    android:textColor="#4CAF50"
+
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CEP"
+
+    android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+    android:textStyle="bold"
+    android:padding="7dp"
+        android:textColor="#4CAF50"
+    android:id="@+id/textview_of_CEP"
+    android:fontFamily="sans-serif-medium"
+
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHE"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:padding="7dp"
+        android:textColor="#4CAF50"
+        android:id="@+id/textview_of_CHEM"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:padding="7dp"
+        android:textColor="#4CAF50"
+        android:id="@+id/textview_of_CSE"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="EEE"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+    android:textSize="15dp"
+
+        android:textColor="#4CAF50"
+    android:textStyle="bold"
+    android:padding="7dp"
+
+    android:id="@+id/textview_of_EEE"
+    android:fontFamily="sans-serif-medium"
+
+
+    /> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="FES"
+
+
+
+    android:textSize="15dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_spin2"
+    android:textStyle="bold"
+    android:padding="7dp"
+    android:textColor="#4CAF50"
+    android:id="@+id/textview_of_FES"
+    android:fontFamily="sans-serif-medium"
+
+
+    /> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="FET"
+
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:padding="7dp"
+
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_spin2"
+    android:id="@+id/textview_of_FET"
+    android:fontFamily="sans-serif-medium"
+    android:textColor="#4CAF50"
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GEE"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:padding="7dp"
+        android:textColor="#4CAF50"
+        android:id="@+id/textview_of_GEE"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IPE"
+
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:id="@+id/textview_of_IPE"
+        android:textColor="#4CAF50"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ME"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:textColor="#4CAF50"
+
+        android:id="@+id/textview_of_ME"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+     <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MAT"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/bg_spin2"
+
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:padding="7dp"
+         android:textColor="#4CAF50"
+
+    android:id="@+id/textview_of_MAT"
+    android:fontFamily="sans-serif-medium"
+
+
+    /> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="OCG"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_spin2"
+
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:padding="7dp"
+    android:textColor="#4CAF50"
+
+    android:id="@+id/textview_of_OCG"
+    android:fontFamily="sans-serif-medium"
+
+
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHY"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:padding="7dp"
+        android:textColor="#4CAF50"
+
+        android:id="@+id/textview_of_PHY"
+        android:fontFamily="sans-serif-medium"
+
+
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PME"
+        android:textColor="#4CAF50"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_spin2"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:padding="7dp"
+
+    android:id="@+id/textview_of_PME"
+    android:fontFamily="sans-serif-medium"
+
+
+    /> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="STA"
+    android:textColor="#4CAF50"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/bg_spin2"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:padding="7dp"
+
+    android:id="@+id/textview_of_STAT"
+    android:fontFamily="sans-serif-medium"
+
+
+    />
+
+
+
+
+
+</LinearLayout>
